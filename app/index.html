@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CcrClient</title>
+    <title>Calvary Chapel Refugio</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,15 +11,14 @@
 
     <link rel="stylesheet" href="assets/vendor.css">
     <link rel="stylesheet" href="assets/ccr-client.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     {{content-for 'head-footer'}}
   </head>
-  <body>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     {{content-for 'body'}}
-
+    {{content-for 'body-footer'}}
     <script src="assets/vendor.js"></script>
     <script src="assets/ccr-client.js"></script>
-
-    {{content-for 'body-footer'}}
   </body>
 </html>

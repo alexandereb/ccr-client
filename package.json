@@ -1,10 +1,9 @@
 {
   "name": "ccr-client",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Small description for ccr-client goes here",
   "private": true,
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "scripts": {
@@ -12,11 +11,14 @@
     "start": "ember server",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandereb/ccr-client.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Alexander Espinoza",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
@@ -36,5 +38,29 @@
     "ember-data": "1.13.15",
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-export-application-global": "^1.0.4"
-  }
+  },
+  "main": "ember-cli-build.js",
+  "dependencies": {
+    "broccoli-asset-rev": "^2.3.0",
+    "ember-cli": "^1.13.13",
+    "ember-cli-app-version": "^1.0.0",
+    "ember-cli-babel": "^5.1.6",
+    "ember-cli-content-security-policy": "^0.4.0",
+    "ember-cli-htmlbars": "^1.0.1",
+    "ember-cli-htmlbars-inline-precompile": "^0.3.1",
+    "ember-cli-ic-ajax": "^0.2.4",
+    "ember-cli-dependency-checker": "^1.2.0",
+    "ember-cli-inject-live-reload": "^1.4.0",
+    "ember-cli-qunit": "^1.0.4",
+    "ember-cli-release": "^0.2.8",
+    "ember-cli-sri": "^1.2.1",
+    "ember-cli-uglify": "^1.2.0",
+    "ember-data": "^1.13.15",
+    "ember-disable-proxy-controllers": "^1.0.1",
+    "ember-export-application-global": "^1.0.5"
+  },
+  "bugs": {
+    "url": "https://github.com/alexandereb/ccr-client/issues"
+  },
+  "homepage": "https://github.com/alexandereb/ccr-client#readme"
 }

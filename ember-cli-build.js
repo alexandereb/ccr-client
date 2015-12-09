@@ -7,6 +7,12 @@ module.exports = function(defaults) {
     // Add options here
   });
 
+
+  app.import('bower_components/bootstrap/dist/css/bootstrap.css');
+  // app.import('bower_components/font-awesome/css/font-awesome.css');
+  // app.import('bower_components/font-awesome/fonts/fontawesome-webfont.ttf');
+  app.import('vendor/jquery.easing.min.js');
+  app.import('vendor/grayscale.js');
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
