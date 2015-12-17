@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #26A6D7;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -96,6 +96,7 @@ a:focus {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 
 .navbar-custom .nav li a:hover {
@@ -147,7 +148,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/assets/images/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(/assets/images/santiago-city-bg.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -162,10 +163,13 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
 }
 
 @media(min-width:768px) {
@@ -305,17 +309,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #26A6D7;
+    color: #26A6D7;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #26A6D7;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: #26A6D7;
 }
 
 ul.banner-social-buttons {
@@ -382,7 +386,7 @@ body {
   box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
 }
 .navbar-custom .nav li a.active {
-  background-color: #1A92CF;
+  background-color: #26A6D7;
 }
 .ember-view {
   width: 100%;
