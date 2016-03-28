@@ -6,7 +6,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('ministeries');
+  this.resource('ministeries', function(){
+    this.resource('ministery', {path: 'ministeries/:title'});
+  });
   this.route('pastor');
   this.route('about');
   this.route('news');

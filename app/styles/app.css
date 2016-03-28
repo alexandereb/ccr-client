@@ -101,8 +101,9 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
+    color: #FFF;
     background-color: transparent;
+    text-decoration: underline;
 }
 
 .navbar-custom .nav li a:focus,
@@ -116,11 +117,14 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
+  background-color: rgba(255,255,255,.3);
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #fff;
+  color: #fff;
+}
+.navbar-custom .nav li a.active:hover {
+  text-decoration: none;
 }
 
 @media(min-width:768px) {
@@ -381,12 +385,13 @@ body {
 .navbar-brand.page-scroll {
   background: url('/assets/images/logo-capilla-full.jpg') no-repeat #FFF;
   text-indent: -999em;
-  background-size: 133px;
-  min-width: 140px;
+  background-size: 190px;
+  min-width: 210px;
   box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+  background-position: 9px 4px;
 }
 .navbar-custom .nav li a.active {
-  background-color: #26A6D7;
+  background-color: #0089BB;
 }
 .ember-view {
   width: 100%;
